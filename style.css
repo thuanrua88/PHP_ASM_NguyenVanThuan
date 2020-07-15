@@ -1,0 +1,45 @@
+
+        form {
+            border-radius: 10px;
+            margin: auto
+        }
+        h1 {
+            color: gray
+        }
+
+        input {
+            border: none;
+            border-bottom: 1px solid gray;
+        }
+
+        input:focus {
+            border: none;
+            outline: none;
+            border-bottom: 1px solid rgb(59, 192, 163) !important
+        }
+
+        input:last-child {
+            color: white;
+            font-weight: 900;
+
+            border-radius: 10px;
+            background: rgb(21,99,203);
+            background: linear-gradient(90deg, rgba(21,99,203,1) 21%, rgba(103,207,195,0.47989618210565477) 50%, rgba(255,119,0,1) 79%);
+        }
+        input:last-child:hover {
+            
+            background: rgb(255,119,0);
+            background: linear-gradient(90deg, rgba(255,119,0,1) 21%, rgba(103,207,195,0.47989618210565477) 50%, rgba(21,99,203,1) 79%, rgba(255,119,0,1) 100%);
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+        .form-footer {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0px;
+        }
+        .back::before {
+            content: '↺'
+        }
